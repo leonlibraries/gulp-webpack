@@ -1,0 +1,52 @@
+{
+  "name": "yweb",
+  "description": "One of the best fabric online market",
+  "main": "index.js",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "glob": "^6.0.1",
+    "gulp": "^3.9.0",
+    "lodash": "^3.10.1",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssshrink": "^0.1.4",
+    "gulp-header": "^1.2.2",
+    "gulp-jscs": "^1.5.1",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-rev": "^3.0.1",
+    "gulp-rev-collector": "^0.1.4",
+    "gulp-uglify": "^1.2.0",
+    "webpack": "^1.12.9",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "core-util-is": "^1.0.1",
+    "style-loader": "^0.13.0",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "url-loader": "^0.5.7",
+    "webpack-stream": "^2.1.1",
+    "jquery": "1.11.3",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.4",
+    "run-sequence": "^1.0.2",
+    "normalize.css": "3.0.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "h5bp-configs": {
+    "directories": {
+      "dist": "./WebContent/WEB-INF",
+      "src": "./web",
+      "resource": "./WebContent/resources",
+      "assets": "./build/assets"
+    }
+  },
+  "homepage": "http://www.yibugo.com.cn",
+  "private": true,
+  "scripts": {
+    "build": "gulp publish build"
+  }
+}
